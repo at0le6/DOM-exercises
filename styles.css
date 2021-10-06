@@ -1,0 +1,34 @@
+*,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body
+{
+    box-sizing: border-box;
+    background-color: #F3F5FF !important;
+    color: #474B4E !important;
+    font-size: 62.5%;
+}
+.Header
+{
+    line-height: 1;
+    font-size: 1.5rem;;
+    border-bottom: 2px solid #e5e5e5;
+}
+.link
+{
+    color: inherit;
+}
+.link:hover
+{
+    color: #626366;
+}
+.Logo
+{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.5rem;
+}
